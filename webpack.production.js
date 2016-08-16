@@ -1,7 +1,6 @@
 var config = require('./webpack.config.js')
 var webpack = require('webpack')
 
-
 config.output.filename = config.output.filename.replace(/\.js$/, '.min.js')
 
 delete config.devtool
