@@ -1,4 +1,4 @@
-## vue component skeleton
+## vue component - vc-[your component name]
 
 ## usage
 
@@ -6,6 +6,12 @@
 
 ```node
 npm run build
+
+```
+* Publish Build
+
+```node
+npm run publish
 ```
 
 * Build example
