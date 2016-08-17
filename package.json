@@ -1,22 +1,24 @@
 {
-  "author": "you here",
-  "name": "vc-your component name",
-  "version": "0.0.1",
-  "description": "a xxx component based on vue.js & bootstrap",
+  "author": "indexxuan@gmail.com",
+  "name": "[your component]",
+  "version": "@Version",
+  "description": "a select component based on vue.js & bootstrap",
   "scripts": {
     "start": "webpack-dev-server --inline --hot --quiet",
+    "build:dev": " webpack --progress --hide-modules --config webpack.config.js",
+    "build:prod": "webpack --progress --hide-modules --config webpack.production.js",
+    "build": "npm run build:dev && npm run build:prod",
     "example": " webpack -w --progress --hide-modules --config webpack.example.js",
-    "build": " webpack -w --progress --hide-modules ",
-    "publish": "webpack --progress --hide-modules --config webpack.production.js"
+    "release": "npm run build && npm publish"
   },
   "main": "dist/build.js",
   "repository": {
       "type": "git",
-      "url": "git+https://github.com/iwaimai-bi-fe/[your].git"
+      "url": "git+https://github.com/iwaimai-bi-fe/[your component].git"
   },
-  "homepage": "https://github.com/iwaimai-bi-fe/vc-[your]#readme",
+  "homepage": "https://github.com/iwaimai-bi-fe/[your component]#readme",
   "bugs": {
-      "url": "https://github.com/iwaimai-bi-fe/vc-[your]/issues"
+      "url": "https://github.com/iwaimai-bi-fe/[your component]/issues"
   },
   "dependencies": {
     "vue": "^1.0.24"
