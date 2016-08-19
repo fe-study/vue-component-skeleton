@@ -1,46 +1,41 @@
-<p align="center">
-    <a href="http://vuejs.org" target="_blank"><img width="100"src="http://vuejs.org/images/logo.png"></a>
-    <br>
-    <img src="https://img.shields.io/badge/Vim-Best%20Editor-green.svg" alt="Vim, The Best Editor" />
-    <br>
-    <br>
-    <a href="https://github.com/airbnb/javascript"><img src="https://cdn.rawgit.com/feross/standard/master/badge.svg" alt="js-standard-style"></a>
-</p>
-
 <h1 align="center">@Vue Component - [your component]</h1>
 
 ## Install
-
 `npm install [your component] --save`
 
 ## Demo
-
 [online demo](https://iwaimai-bi-fe.github.io/[your component]/examples/)
 
 ## Dev
 
-* build
+* Build
 
 ```node
 npm run build
 
 ```
 
-* build dev
+* Build dev
 
 ```node
 npm run build:dev
 
 ```
 
-* build production 
+* Build production 
 
 ```node
 npm run build:prod
 
 ```
 
-* build example
+* Publish 
+
+```node
+npm run publish
+```
+
+* Build example
 
 ```node
 npm run example
@@ -51,20 +46,3 @@ npm run example
 ```node
 npm run start
 ```
-
-* publish 
-
-```node
-npm run release 
-```
-
-## Changelog 
-
-[changelog](https://github.com/iwaimai-bi-fe/[your component]/blob/master/CHANGELOG.md) 
-
-## License
-
-[MIT](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2016
-

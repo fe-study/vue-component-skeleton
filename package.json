@@ -1,15 +1,15 @@
 {
   "author": "indexxuan@gmail.com",
   "name": "[your component]",
-  "version": "0.8.3",
+  "version": "@Version",
   "description": "a select component based on vue.js & bootstrap",
   "scripts": {
     "start": "webpack-dev-server --inline --hot --quiet",
     "build:dev": " webpack --progress --hide-modules --config webpack.config.js",
     "build:prod": "webpack --progress --hide-modules --config webpack.production.js",
-    "build": "npm run build:dev && npm run build:prod && npm run example",
+    "build": "npm run build:dev && npm run build:prod",
     "example": " webpack -w --progress --hide-modules --config webpack.example.js",
-    "publish": "npm build && npm publish"
+    "release": "npm run build && npm publish"
   },
   "main": "dist/build.js",
   "repository": {
