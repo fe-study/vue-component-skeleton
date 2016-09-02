@@ -11,6 +11,7 @@ module.exports = {
     libraryTarget: 'umd'
   },
   resolve: {
+    extensions: ['', '.js', '.vue'],
     root: path.resolve('./')
   },
   vue: {
