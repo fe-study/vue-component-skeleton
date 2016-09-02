@@ -1,11 +1,11 @@
 {
-  "author": "indexxuan@gmail.com",
+  "author": "your name",
   "name": "[your component]",
-  "version": "0.8.3",
-  "description": "a select component based on vue.js & bootstrap",
+  "version": "0.0.1",
+  "description": "a component based on vue.js & bootstrap",
   "scripts": {
     "start": "webpack-dev-server --inline --hot --quiet",
-    "build:dev": " webpack --progress --hide-modules --config webpack.config.js",
+    "build:dev": " webpack -w --progress --hide-modules --config webpack.config.js",
     "build:prod": "webpack --progress --hide-modules --config webpack.production.js",
     "build": "npm run build:dev && npm run build:prod && npm run example",
     "example": " webpack -w --progress --hide-modules --config webpack.example.js",

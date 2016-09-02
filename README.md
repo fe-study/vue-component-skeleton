@@ -7,6 +7,20 @@
 
 <h1 align="center">@Vue Component - [your component]</h1>
 
+## update package.json file
+
+* Author
+* name
+* description
+* repository
+* homepage
+* bugs
+
+## update webpack.config.js
+
+* output filename build.js to your component name
+* output library VueComponentsName to your component name 
+
 ## Install
 
 `npm install [your component] --save`
